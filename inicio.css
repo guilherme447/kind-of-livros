@@ -1,0 +1,131 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Montserrat", sans-serif;
+            width: auto;
+            background-color: rgba(222, 184, 135, 0.452);
+    }
+    
+    nav {
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: rgb(238, 171, 84);
+        padding-left: 10px;
+        padding-right: 10x;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    article {
+        display: flex;
+        justify-content: center;
+        margin-left: 160px;
+        margin-right: 160px;
+        border-radius: 40px;
+        background-color: rgba(222, 184, 135, 0.452);
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+    }
+
+    .harrypotter {
+        border-radius: 8px;
+        height: 400px;
+        width: 240px;
+        justify-content: right;
+        margin-left: 30px;
+        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        
+
+        
+    }
+
+    img {
+        width: 70px;
+        background-image: cover;
+
+    }
+
+    .harryimg {
+        border-radius: 8px;
+        width: 200px;
+        margin-left: 18px;
+        margin-top: 9px;
+        border: 2px solid rgb(238, 171, 84);
+    }
+        
+    .custo {
+        color: rgba(0, 0, 255, 0.644);
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+            
+
+    button {
+        padding: 4px 4px 4px 4px;
+        margin-right: 14px;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 255, 0.507);
+        border:none;
+    }
+    
+    
+
+    h3 {
+       
+        font-size: 15px;
+        padding-top: 5px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    
+
+
+    h4 {
+        padding-top: 7px;
+        margin-left: 14px;
+    }
+
+    p {
+        padding-top: 5px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    h1 {
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    section {
+        margin: 100px
+    }
+
+    ul {
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        gap:30px;
+        background-color: rgb(238, 171, 84);
+        border-radius: 15px;
+
+    }
